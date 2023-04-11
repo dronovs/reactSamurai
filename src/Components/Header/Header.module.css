@@ -1,0 +1,13 @@
+.header {
+    grid-area: header;
+    background-color: #95BDFF;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.mainLogo {
+    max-height: 20px;
+    mix-blend-mode: color-burn;
+}

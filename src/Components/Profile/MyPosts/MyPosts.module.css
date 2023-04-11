@@ -1,0 +1,16 @@
+.content_posts {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.postsFormWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.postsInput {
+    height: 30px;
+}

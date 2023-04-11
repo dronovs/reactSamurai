@@ -1,0 +1,93 @@
+.dialogs_wrapper {
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    grid-gap: 5px;
+}
+
+.dialogs {
+    padding: 10px;
+    background-color: #95BDFF;
+    border-radius: 5px;
+}
+
+.dialogsItems {
+    padding: 10px;
+}
+
+.dialog {
+    width: 100%;
+    color: #65647C;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dialog img {
+    max-height: 35px;
+    max-width: 50px;
+    border-radius: 25%;
+    aspect-ratio: 3/2;
+    object-fit: fill;
+    margin-bottom: 10px;
+}
+
+.activeDialog {
+    background-color: #B4E4FF;
+}
+
+.dialogsItems .active {
+    width: 100%;
+    color: lightseagreen;
+}
+
+.dialogItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 80%;
+    text-decoration: none;
+    color: #65647C;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid lightslategray;
+    background-color: #B4E4FF;
+}
+
+.activeItem {
+    color: #65647C;
+    background-color: #F9F5E7;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px grey;
+}
+
+.messages {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    background-color: #95BDFF;
+    border-radius: 5px;
+}
+
+.message {
+    border: 1px solid lightslategrey;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px;
+    color: #65647C;
+    margin-bottom: 5px;
+    padding: 3px;
+}
+
+.sendMessageButton {
+    height: 20px;
+}
+
+.sendMessageInput {
+    height: 25px;
+}
+
+.sendMessageForm {
+    display: flex;
+    flex-direction: column;
+}

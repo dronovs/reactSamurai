@@ -1,0 +1,14 @@
+.post_heading {
+    display: flex;
+    align-items: center;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+}
+
+.img {
+    max-height: 40px;
+    max-width: 40px;
+    border-radius: 50%;
+}
