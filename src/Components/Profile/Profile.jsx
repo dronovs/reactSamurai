@@ -1,4 +1,4 @@
-import React, {Fragment} from "react";
+import React from "react";
 import { MyPosts } from "./MyPosts/MyPosts";
 import { ProfileInfo } from "./ProfileInfo/ProfileInfo";
 import profileStyles from './Profile.module.css';
