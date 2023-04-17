@@ -8,10 +8,8 @@ export function Profile(props) {
         <div className={ profileStyles.profileWrapper }>
 
             <ProfileInfo/>
-            <MyPosts posts={ props.state.posts }
-                     addPost={ props.addPost }
-                     newPostText={props.state.newPostText}
-                     updatePostText={ props.updatePostText } />
+                <MyPosts store={ props.store }
+            />
 
         </div>
     )
